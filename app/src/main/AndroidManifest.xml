@@ -45,6 +45,16 @@
             </intent-filter>
         </activity>
 
+        <activity
+        android:name=".checkout"
+        android:label="warungburjo" >
+        <intent-filter>
+            <action android:name="com.marsemellow.warungburjo.checkout" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
     </application>
 
 </manifest>

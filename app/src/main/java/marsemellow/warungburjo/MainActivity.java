@@ -53,14 +53,14 @@ public class MainActivity extends AppCompatActivity {
 
         if(isConnected()){
             tvIsConnected.setBackgroundColor(0xFF00CC00);
-            tvIsConnected.setText("You are conncted");
+            tvIsConnected.setText("You are connected");
         }
         else{
-            tvIsConnected.setText("You are NOT conncted");
+            tvIsConnected.setText("You are NOT connected");
         }
 
         // call AsynTask to perform network operation on separate thread
-        new HttpAsyncTask().execute("http://192.168.1.3:10088/pjw/menu.php");
+        new HttpAsyncTask().execute("http://192.168.43.172:10088/pjw/menu.php");
 
         final ListView listView = (ListView) findViewById(R.id.listView_output);
         listView.setAdapter(adapter);

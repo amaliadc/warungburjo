@@ -57,7 +57,7 @@ public class pilih_makanan extends AppCompatActivity {
 
         textIdMakanan.setText(idMakanan);
 
-        new DownloadImageTask((ImageView) findViewById(R.id.imageView)).execute("http://192.168.1.3:10088/logo.png");
+        new DownloadImageTask((ImageView) findViewById(R.id.imageView)).execute("http://192.168.43.172:10088/logo.png");
 
         buttonPesan.setOnClickListener(new View.OnClickListener(){
             @Override
