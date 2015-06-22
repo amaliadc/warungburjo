@@ -17,14 +17,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".pesan_makanan"
-            android:label="burjo" >
+            android:name=".pilih_makanan"
+            android:label="warungburjo" >
             <intent-filter>
-                <action android:name="com.kelompokamalia.burjo.pesan_makanan" />
+                <action android:name="com.marsemellow.warungburjo.pilih_makanan" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".pesan_makanan"
+            android:label="warungburjo" >
+            <intent-filter>
+                <action android:name="com.marsemellow.warungburjo.pesan_makanan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".lihat_keranjang"
+            android:label="warungburjo" >
+            <intent-filter>
+                <action android:name="com.marsemellow.warungburjo.lihat_keranjang" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
