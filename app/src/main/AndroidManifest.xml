@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".pesan_makanan"
+            android:label="burjo" >
+            <intent-filter>
+                <action android:name="com.kelompokamalia.burjo.pesan_makanan" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
