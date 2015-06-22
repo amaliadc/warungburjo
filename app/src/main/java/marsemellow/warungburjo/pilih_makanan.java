@@ -64,7 +64,7 @@ public class pilih_makanan extends AppCompatActivity {
             public void onClick(View v){
 
 
-                Intent intent = new Intent("com.kelompokamalia.burjo.pesan_makanan");
+                Intent intent = new Intent("com.marsemellow.warungburjo.pesan_makanan");
 
                 Bundle data = new Bundle();
                 data.putString("id", idMakanan);
