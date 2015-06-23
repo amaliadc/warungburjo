@@ -2,17 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <LinearLayout android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" android:layout_weight="1">
-        <TextView
-            android:id="@+id/textNomor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nama Makanan"
-            android:orientation="horizontal"
-            android:textStyle="bold" />
-    </LinearLayout>
+
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal" android:layout_weight="1">
@@ -25,17 +15,7 @@
             />
     </LinearLayout>
 
-    <LinearLayout android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" android:layout_weight="1">
-        <TextView
-            android:id="@+id/textIdMakanan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Deskripsi Makanan"
-            android:orientation="horizontal"
-            />
-    </LinearLayout>
+
 
     <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -58,6 +38,22 @@
             android:layout_height="wrap_content"
             android:text="Deskripsi Makanan"
             android:orientation="horizontal"
+            />
+        <TextView
+            android:id="@+id/textNomor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Makanan"
+            android:orientation="horizontal"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+        <TextView
+            android:id="@+id/textIdMakanan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Makanan"
+            android:orientation="horizontal"
+            android:visibility="invisible"
             />
     </LinearLayout>
 

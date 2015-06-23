@@ -116,6 +116,11 @@ public class krDatabaseHandler extends SQLiteOpenHelper {
 
     }
 
+    public void deleteAll (){
+        SQLiteDatabase db = this.getWritableDatabase();
+        db.delete("keranjang", null, null);
+    }
+
 
 
 }

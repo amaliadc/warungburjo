@@ -58,7 +58,8 @@ public class checkout extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                new HttpAsyncTask().execute("http://192.168.43.172:10088/pjw/pesan.php");
+                new HttpAsyncTask().execute("http://192.168.1.4:10088/pjw/pesan.php");
+
 
             }
         });
@@ -129,6 +130,7 @@ public class checkout extends AppCompatActivity {
         }
 
         // 11. return result
+        handler.deleteAll();
         return result;
     }
 

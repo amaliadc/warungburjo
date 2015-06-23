@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LaRose_WarungBurjo.iml" filepath="$PROJECT_DIR$/LaRose_WarungBurjo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Marsetyo_WarungBurjo.iml" filepath="$PROJECT_DIR$/Marsetyo_WarungBurjo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RidhoPratama_WarungBurjo.iml" filepath="$PROJECT_DIR$/RidhoPratama_WarungBurjo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aji_warungburjo.iml" filepath="$PROJECT_DIR$/aji_warungburjo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/warungburjo.iml" filepath="$PROJECT_DIR$/warungburjo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/warungburjo2.iml" filepath="$PROJECT_DIR$/warungburjo2.iml" />
     </modules>
   </component>
 </project>
-

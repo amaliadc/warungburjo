@@ -53,14 +53,14 @@ public class MainActivity extends AppCompatActivity {
 
         if(isConnected()){
             tvIsConnected.setBackgroundColor(0xFF00CC00);
-            tvIsConnected.setText("You are connected");
+            tvIsConnected.setText("Terhubung ke server");
         }
         else{
-            tvIsConnected.setText("You are NOT connected");
+            tvIsConnected.setText("Tidak terhubung ke server");
         }
 
         // call AsynTask to perform network operation on separate thread
-        new HttpAsyncTask().execute("http://192.168.43.172:10088/pjw/menu.php");
+        new HttpAsyncTask().execute("http://192.168.1.4:10088/pjw/menu.php");
 
         final ListView listView = (ListView) findViewById(R.id.listView_output);
         listView.setAdapter(adapter);
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 TextView e = (TextView) view.findViewById(R.id.textTersediaMakanan);
                 String tersediaMakanan = (String) e.getText();
 
-                Intent intent = new Intent("com.kelompokamalia.burjo.pilih_makanan");
+                Intent intent = new Intent("com.marsemellow.warungburjo.pilih_makanan");
 
                 Bundle data = new Bundle();
                 data.putString("id", idMakanan);

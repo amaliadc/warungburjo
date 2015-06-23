@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -33,7 +34,7 @@ public class lihat_keranjang extends AppCompatActivity{
         btnCheckout = (Button) findViewById(R.id.btnCheckout);
         tvTotal = (TextView) findViewById(R.id.tvTotal);
 
-        krDatabaseHandler handler = new krDatabaseHandler(this);
+        final krDatabaseHandler handler = new krDatabaseHandler(this);
 
         final String hargaTotal = handler.hitungTotal();
 
@@ -66,7 +67,6 @@ public class lihat_keranjang extends AppCompatActivity{
                 startActivity(intent);
             }
         });
-
 
 
     }
